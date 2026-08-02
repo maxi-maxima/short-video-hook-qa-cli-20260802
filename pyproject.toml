@@ -1,0 +1,10 @@
+[project]
+name = "short-video-hook-qa-cli"
+version = "0.1.0"
+description = "Score short video scripts for hook strength, CTA coverage, and scene pacing."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+[tool.setuptools]
+py-modules = ["main"]
