@@ -14,7 +14,10 @@ AI 辅助视频内容产出越来越多，一个简单的 QA 步骤可以防止�
 ## 运行
 ```bash
 python main.py --file script.txt
+python main.py --file script.txt --genre tutorial --json
 ```
+
+`--genre` 可以开启 `tutorial`、`product`、`story` 三类题材模板检查。
 
 ## 示例
 输入：
@@ -39,6 +42,5 @@ python -m unittest discover -s tests -v
 ```
 
 ## 路线图
-- 增加按题材分类的模板
-- 增加 JSON 输出和批量模式
+- 增加批量模式
 - 增加适配 shorts / reels 的字数阈值

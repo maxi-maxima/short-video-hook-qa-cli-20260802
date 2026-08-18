@@ -14,7 +14,10 @@ No dependencies. Use Python 3.11+.
 ## Run
 ```bash
 python main.py --file script.txt
+python main.py --file script.txt --genre tutorial --json
 ```
+
+`--genre` enables template checks for `tutorial`, `product`, or `story` scripts.
 
 ## Example
 Input:
@@ -39,6 +42,5 @@ python -m unittest discover -s tests -v
 ```
 
 ## Roadmap
-- Add genre-specific templates
-- Add JSON output and batch mode
+- Add batch mode
 - Add word-count thresholds for shorts and reels
